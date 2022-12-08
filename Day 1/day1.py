@@ -12,3 +12,4 @@ for calories in lines:
         total = 0
 
 print(max(elfs_calories))
+print(sum(sorted(elfs_calories)[-3:]))
